@@ -1,4 +1,3 @@
-
 * {
 	margin: 0;
 	padding: 0;
@@ -6,16 +5,28 @@
 a {
 	text-decoration: none;
 }
-.navbar-default{
-	background:transparent;
-	border:none !important;
-	font-family: 'Montserrat', sans-serif;
-	font-size: 18px;
-
+@font-face {
+	font-family: fontGeneral;
+	src: url(../data/fonts/fontGeneral.otf);
 }
-.navbar-nav>li>a:hover{
-	color:#1a1a1a;
-} 
+.navbar-default{
+	border:none !important;
+	font-family: fontGeneral;
+	font-size: 18px;
+	background-color: rgba(255,255,255,0);
+}
+.navbar-default .navbar-nav>li>a {
+	color: white;
+}
+.navbar-default .navbar-nav>li>a:visited {
+	color: white;
+}
+.navbar-default .navbar-nav>li>a:active {
+	color: #F7F3BC;
+}
+.navbar-default .navbar-nav>li>a:hover{
+	color: #F7F3BC;
+}
 .navbar .navbar-nav {
 	display: inline-block;
 	float: none;
@@ -23,6 +34,61 @@ a {
 }
 .navbar .navbar-collapse {
 	text-align: center;
+}
+.name{
+	font-family:fontGeneral;
+	font-size:30px;
+}
+.iam{
+	font-family:fontGeneral;
+	font-size:15px;
+}
+.info{
+	font-family:fontGeneral;
+	font-size:19px;
+	text-align: justify;
+}
+.hobbies{
+	margin-left: 30px;
+	font-family:fontGeneral;
+	font-size:19px;
+}
+#about{
+	padding-top: 100px;
+}
+.infoPersonal{
+	border-right: 2px solid #F7F3BC;
+	margin-right: -2px;
+}
+.races{
+	border-left: 2px solid #F7F3BC;
+	margin-left: -2px;
+}
+.photoRaces{
+	width: 100%;
+}
+#section1{
+	height: 100vh;
+	background-image: url("../data/img/background.jpg");
+}
+#section2{
+	height: 100vh;
+}
+.photo{
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	flex-direction: column;
+	color:white;
+	text-align:center;
+	height:100vh;
+}
+.imgphoto{
+	width:30%;
+	display:block; 
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom:20px;
 }
 @media (max-width: 1012px) {
 	.navbar-header {
