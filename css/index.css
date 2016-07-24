@@ -1,3 +1,7 @@
+*{
+	margin: 0;
+	padding: 0;
+}
 a {
 	text-decoration: none;
 }
@@ -31,7 +35,7 @@ a {
 	position:absolute;
 	top:0;
 	left:0;
-width:110px;
+	width:110px;
 	font-weight:bold;
 	font-size:13px;
 	color:#ffffff;
@@ -125,8 +129,15 @@ width:110px;
 	font-family:fontGeneral;
 	font-size:15px;
 }
-#about, #academy, #jobs, #knowledge{
+#about{
 	padding-top: 100px;
+	padding-bottom: 30px;
+	font-family:fontGeneral;
+	text-decoration: underline;
+	padding-left: 20px;
+}
+#academy, #jobs, #knowledge{
+	padding-top: 50px;
 	padding-bottom: 30px;
 	font-family:fontGeneral;
 	text-decoration: underline;
