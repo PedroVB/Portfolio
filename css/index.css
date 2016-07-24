@@ -41,7 +41,7 @@ a {
 }
 .info{
 	font-family:fontGeneral;
-	font-size:19px;
+	font-size:15px;
 	text-align: left;
 }
 .row{
@@ -51,18 +51,36 @@ a {
 .hobbies{
 	margin-left: 10px;
 	font-family:fontGeneral;
-	font-size:19px;
+	font-size:15px;
 }
-#about, #academy{
+#about, #academy, #jobs{
 	padding-top: 100px;
 	padding-bottom: 30px;
 	font-family:fontGeneral;
 	text-decoration: underline;
 	padding-left: 20px;
 }
+.img-responsive {
+	display:inline-block;
+	height:auto;
+	max-width:100%;
+	margin-top: -50px;
+}
+.posted_box {
+	font-size:12px;
+	text-transform:uppercase;
+	margin-bottom:20px;
+	font-weight:bold
+}
 .infoPersonal{
 	border-right: 2px solid #F7F3BC;
 	margin-right: -2px;
+}
+.double{
+	border-right: 3px solid #F7F3BC;
+	margin-right: -3px;
+	border-left: 3px solid #F7F3BC;
+	margin-left: -3px;
 }
 .races{
 	border-left: 2px solid #F7F3BC;
@@ -77,6 +95,11 @@ a {
 	display:block; 
 	margin-left: auto;
 	margin-right: auto;
+}
+.projectssub h3{
+	font-size: 15px;
+	font-family:fontGeneral;
+	margin-top: -20px;
 }
 #section1{
 	height: 100vh;
@@ -100,9 +123,12 @@ a {
 }
 .logoiron{
 	width: 150px;
-		display:block; 
+	display:block; 
 	margin-left: auto;
 	margin-right: auto;
+}
+.margin_project{
+	padding-bottom: 20px;
 }
 @media (max-width: 1012px) {
 	.navbar-header {
