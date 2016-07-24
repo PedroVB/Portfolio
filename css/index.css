@@ -145,14 +145,6 @@ a {
 	margin-bottom:20px;
 	font-weight:bold
 }
-
-.double{
-	border-right: 3px solid #F7F3BC;
-	margin-right: -3px;
-	border-left: 3px solid #F7F3BC;
-	margin-left: -3px;
-}
-
 .separation{
 		padding-bottom: 20px;
 	padding-top: 20px;
