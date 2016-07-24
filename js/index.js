@@ -4,9 +4,11 @@
  });
 
   $(document).ready(function(){
-    $(".nav").hide(0).delay(500).fadeIn(3000); 
+    $(".nav").hide(0).delay(300).fadeIn(3000); 
     $(".photo").addClass("flip-top");
     $('.ancla').click(function(){
+      $('.ancla').css("color", "white");
+      $(this).css("color", "#F7F3BC");
       var link = $(this);
       var anchor  = link.attr('href');
       $('html, body').stop().animate({

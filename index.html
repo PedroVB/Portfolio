@@ -8,7 +8,6 @@
 	<link rel="stylesheet" type="text/css" href="css/index.css">
 	<script type="text/javascript" src="js/jquery-2.2.4.min.js"></script>
 	<script type="text/javascript" src="js/bootstrap.min.js"></script>
-
 	<script type="text/javascript" src="js/index.js"></script>
 </head>
 <body>
@@ -25,19 +24,19 @@
 				</div>
 				<div class="collapse navbar-collapse">
 					<ul class="nav navbar-nav">
-						<li><a href="#" class="ancla">Inicio</a></li>
+						<li><a href="#init" class="ancla">Inicio</a></li>
 						<li><a href="#about" class="ancla">Sobre Mí</a></li>
-						<li><a href="#academy">Datos Acadécimos</a></li>
-						<li><a href="#contact">Trabajos</a></li>
-						<li ><a href="#knowledge">Conocimientos</a></li>
-						<li ><a href="#recomendations">Recomendaciones</a></li>
-						<li ><a href="#contact">Contacto</a></li>
+						<li><a href="#academy" class="ancla">Datos Acadécimos</a></li>
+						<li><a href="#jobs" class="ancla">Trabajos</a></li>
+						<li ><a href="#knowledge" class="ancla">Conocimientos</a></li>
+						<li ><a href="#recomendations" class="ancla">Recomendaciones</a></li>
+						<li ><a href="#contact" class="ancla">Contacto</a></li>
 					</ul>
 				</div>
 			</div>
 		</div>
 		<div class="container">
-			<div class="row item1" id="#">
+			<div class="row item1" id="init">
 				<div class="col-md-12 photo">
 					<img src="data/img/cvfoto.png" class="imgphoto" />
 					<p class="name">Pedro Valor Bellido</p>
@@ -49,11 +48,12 @@
 	</section>
 	<section id="section2">
 		<div class="container">
-			<div class="row" id="about">
+			<div class="row">
+				<h1 id="about">SOBRE MÍ</h1>
 				<div class="col-md-4 infoPersonal races">
 					<p class="info">Soy Pedro, tengo 28 años y me defino como una persona bastante positiva, comprometida y con capacidad de tomar decisiones bajo presión.</p>
 					<p class="info">Titulado como Técnico en Sistemas Microinformáticos y Redes y certificado como desarrollador web, con más de un año de experiencia en este campo.</p>
-					<p class="info">El mundo de la informática es el camino que he tomado y cada día me gusta más ya que es un campo donde siempre amplias conocimientos.</p>
+					<p class="info">El mundo de la informática es el camino que he tomado y cada día me gusta más ya que es un campo donde siempre amplias conocimientos.</p><br/>
 				</div>
 				<div class="col-md-4 infoPersonal races">
 					<p class="info">Mis hobbies son:</p>
@@ -65,7 +65,7 @@
 						<li>Salir con los amigos</li>
 						<li>Deporte</li>
 					</ul>
-					<p class="info">Siempre intento sacar hueco para poder realizar alguno de mis hobbies, ya que son los que me ayudan a despejarme y asi poder rendir más al día siguiente.</p>
+					<p class="info">Siempre intento sacar hueco para poder realizar alguno de mis hobbies, ya que son los que me ayudan a despejarme y asi poder rendir más al día siguiente.</p><br/>
 				</div>
 				<div class="col-md-4 infoPersonal races">
 					<p class="info">Apasionado del Running, con varias carreras terminadas y más de 400Km recorridos.</p>
@@ -74,6 +74,38 @@
 			</div>
 		</div>
 	</section>
-	<section id="section3"></section>
-</body>
-</html>
+	<section id="section3">
+		<div class="container">
+			<div class="row separation">
+				<h1 id="academy">DATOS ACADÉMICOS</h1>
+				<div class="col-md-10">
+					<p class="info">Seleccionado y becado para el programa de Generation Spain especializado en desarrollo web e impartido por Ironhack.</p>
+					<p class="info">Las empresas que colaboran con este programa son EOI, McKinsey & Company y Gallup.</p>
+					<p class="info">Habilidades técnicas: Introducción a HTML y CSS, Introducción a la programación JavaScript, DOM básico con Javascript, CSS Avanzado y Diseño Responsive, DOM y JQuery, Javascript Avanzado, APIs HTML, App de una página con Angular y Directivas Angular.</p>					
+				</div>
+				<div class="col-md-2">
+					<img src="data/img/ironhack.png" class="logoiron">
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-10">
+					<br/><p class="info">Certificado de Profesionalidad de Desarrollador de Aplicaciones con Tecnologías Web</p>
+					<p class="info">Desarrollar documentos y componentes software que constituyan aplicaciones 
+						informáticas en entornos distribuidos utilizando tecnologías web, partiendo de un 
+						diseño técnico ya elaborado, realizando, además, la verificación, documentación e 
+						implantación de los mismos.</p>		
+						<ul class="hobbies">
+							<li>Programación Web en el entorno cliente</li>
+							<li>Programación Web en el entorno servidor</li>
+							<li>Implantación de aplicaciones Web en entornos Internet, intranet y extranet</li>							
+						</ul>					
+					</div>
+					<div class="col-md-2">
+						<br/><img src="data/img/cdm.png" class="logoiron">
+					</div>
+
+				</div>
+			</div>		
+		</section>
+	</body>
+	</html>

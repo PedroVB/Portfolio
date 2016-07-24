@@ -48,13 +48,17 @@ a {
 	font-size:19px;
 	text-align: justify;
 }
+
 .hobbies{
 	margin-left: 30px;
 	font-family:fontGeneral;
 	font-size:19px;
 }
-#about{
+#about, #academy{
 	padding-top: 100px;
+	padding-bottom: 30px;
+	font-family:fontGeneral;
+	text-decoration: underline;
 }
 .infoPersonal{
 	border-right: 2px solid #F7F3BC;
@@ -64,15 +68,16 @@ a {
 	border-left: 2px solid #F7F3BC;
 	margin-left: -2px;
 }
+.separation{
+	border-bottom: 2px solid #F7F3BC;
+	margin-bottom: -2px;
+}
 .photoRaces{
 	width: 100%;
 }
 #section1{
 	height: 100vh;
 	background-image: url("../data/img/background.jpg");
-}
-#section2{
-	height: 100vh;
 }
 .photo{
 	display: flex;
@@ -89,6 +94,9 @@ a {
 	margin-left: auto;
 	margin-right: auto;
 	margin-bottom:20px;
+}
+.logoiron{
+	width: 100%;
 }
 @media (max-width: 1012px) {
 	.navbar-header {
