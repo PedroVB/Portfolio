@@ -60,11 +60,6 @@ a {
 	text-decoration: underline;
 	padding-left: 20px;
 }
-.img-responsive {
-	display:inline-block;
-	height:auto;
-	max-width:100%;
-}
 .posted_box {
 	font-size:12px;
 	text-transform:uppercase;
@@ -98,7 +93,6 @@ a {
 .projectssub h3{
 	font-size: 15px;
 	font-family:fontGeneral;
-	margin-top: -20px;
 }
 #section1{
 	height: 100vh;
