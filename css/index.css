@@ -33,10 +33,10 @@ a {
 
 .skillbar-title {
 	position:absolute;
+	font-family:fontGeneral;
 	top:0;
 	left:0;
 	width:110px;
-	font-weight:bold;
 	font-size:13px;
 	color:#ffffff;
 	background:#6adcfa;
@@ -70,7 +70,6 @@ a {
 	-moz-border-radius:3px;
 	-webkit-border-radius:3px;
 }
-
 .skill-bar-percent {
 	position:absolute;
 	right:10px;
@@ -107,6 +106,13 @@ a {
 .navbar .navbar-collapse {
 	text-align: center;
 }
+footer {
+	background-color: black;
+	width: 100%;
+	bottom: 0;
+	position: fixed;
+	height: 50px;
+}
 .name{
 	font-family:fontGeneral;
 	font-size:30px;
@@ -120,6 +126,19 @@ a {
 	font-size:15px;
 	text-align: left;
 }
+.info2{
+	font-family:fontGeneral;
+	font-size:15px;
+	color:white;
+}
+footer{
+	text-align: center;
+	display: table;
+}
+footer > *{
+  display: table-cell;
+  vertical-align: middle; 
+}
 .hobbies{
 	margin-left: 10px;
 	font-family:fontGeneral;
@@ -132,7 +151,7 @@ a {
 	text-decoration: underline;
 	padding-left: 20px;
 }
-#academy, #jobs, #knowledge{
+#academy, #jobs, #knowledge, #contact{
 	padding-top: 50px;
 	padding-bottom: 30px;
 	font-family:fontGeneral;
@@ -146,7 +165,7 @@ a {
 	font-weight:bold
 }
 .separation{
-		padding-bottom: 20px;
+	padding-bottom: 20px;
 	padding-top: 20px;
 }
 .photoRaces{
@@ -184,6 +203,9 @@ a {
 	display:block; 
 	margin-left: auto;
 	margin-right: auto;
+}
+#section6{
+	margin-bottom: 100px;
 }
 .margin_project{
 	padding-bottom: 20px;
