@@ -173,6 +173,7 @@ footer > *{
 	display:block; 
 	margin-left: auto;
 	margin-right: auto;
+	margin-top: 20px;
 }
 .projectssub h3{
 	font-size: 15px;
