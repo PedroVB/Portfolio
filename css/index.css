@@ -150,12 +150,15 @@ footer > *{
 	padding-bottom: 30px;
 	font-family:fontGeneral;
 	padding-left: 20px;
+	font-size: 30px;
 }
 #academy, #jobs, #knowledge, #contact{
 	padding-top: 50px;
 	padding-bottom: 30px;
 	font-family:fontGeneral;
 	padding-left: 20px;
+	font-size: 30px;
+	margin-top: 30px;
 }
 .posted_box {
 	font-size:12px;
@@ -209,6 +212,33 @@ footer > *{
 }
 .margin_project{
 	padding-bottom: 20px;
+}
+.html{
+	background-color:#e67e22;
+}
+.css{
+	background-color:#3498db;
+}
+.js{
+	background-color:#f8dc3d;
+}
+.jquery{
+	background-color:#2c3e50;
+}
+.sass{
+	background-color:#cf649a;
+}
+.bootstrap{
+	background-color:#563b7e;
+}
+.angular{
+	background-color:#b92732;
+}
+.git{
+	background-color:#f05033;
+}
+.title{
+	font-weight: bold;
 }
 @media (max-width: 1012px) {
 	.navbar-header {
