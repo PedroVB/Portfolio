@@ -4,6 +4,7 @@
 }
 a {
 	text-decoration: none;
+	color:black;
 }
 @font-face {
 	font-family: fontGeneral;
@@ -30,7 +31,6 @@ a {
 	-o-transition-property:width, background-color;
 	transition-property:width, background-color;
 }
-
 .skillbar-title {
 	position:absolute;
 	font-family:fontGeneral;
@@ -159,6 +159,18 @@ footer > *{
 	padding-left: 20px;
 	font-size: 30px;
 	margin-top: 70px;
+}
+.contactdata{
+	list-style: none;
+	text-align: center;
+	font-family: fontGeneral;
+}
+.linkedin, .gmail{
+	margin-right: 30px;
+	margin-bottom: 20px;
+}
+.contactinfo{
+	text-align: center;
 }
 .posted_box {
 	font-size:12px;
