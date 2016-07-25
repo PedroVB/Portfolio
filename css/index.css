@@ -47,7 +47,6 @@ a {
 	border-top-left-radius:3px;
 	border-bottom-left-radius:3px;
 }
-
 .skillbar-title span {
 	display:block;
 	background:rgba(0, 0, 0, 0.1);
@@ -61,7 +60,6 @@ a {
 	border-top-left-radius:3px;
 	border-bottom-left-radius:3px;
 }
-
 .skillbar-bar {
 	height:35px;
 	width:0px;
@@ -113,6 +111,9 @@ footer {
 	position: fixed;
 	height: 50px;
 }
+.glyphicon{
+	padding-right:10px;
+}
 .name{
 	font-family:fontGeneral;
 	font-size:30px;
@@ -148,14 +149,12 @@ footer > *{
 	padding-top: 100px;
 	padding-bottom: 30px;
 	font-family:fontGeneral;
-	text-decoration: underline;
 	padding-left: 20px;
 }
 #academy, #jobs, #knowledge, #contact{
 	padding-top: 50px;
 	padding-bottom: 30px;
 	font-family:fontGeneral;
-	text-decoration: underline;
 	padding-left: 20px;
 }
 .posted_box {
