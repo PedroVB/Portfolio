@@ -24,5 +24,10 @@ $(document).ready(function(){
       width:$(this).attr('data-percent')
     },6000);
   });
+
+   $(".linkGallery").dblclick(function(){
+        var link = $('img', $(this)).attr('alt');
+        window.open(link, '_blank');
+   });
   
 });

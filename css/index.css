@@ -178,12 +178,18 @@ footer > *{
 	font-size: 30px;
 	margin-top: 70px;
 }
+.gallerysection{
+	margin-bottom: 30px;
+}
+.titleGallery{
+	text-align:center;
+}
 .contactdata{
 	list-style: none;
 	text-align: center;
 	font-family: fontGeneral;
 }
-.linkedin, .gmail{
+.linkedin, .gmail, .github{
 	margin-right: 30px;
 	margin-bottom: 20px;
 }
