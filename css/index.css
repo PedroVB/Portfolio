@@ -202,6 +202,10 @@ footer > *{
 	margin-bottom:20px;
 	font-weight:bold
 }
+.navbar-brand{
+	color:white !important;
+	display: none;
+}
 .separation{
 	padding-bottom: 20px;
 	padding-top: 20px;
@@ -277,6 +281,10 @@ footer > *{
 	font-weight: bold;
 }
 @media (max-width: 1077px) {
+	.navbar-brand{
+		color:white !important;
+		display: block;
+	}
 	.navbar-header {
 		float: none;
 	}
@@ -311,5 +319,8 @@ footer > *{
 	}
 	.collapse.in{
 		display:block !important;
+	}
+	.pcversion{
+		display: none;
 	}
 }
