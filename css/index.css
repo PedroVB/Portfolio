@@ -10,6 +10,24 @@ a {
 	font-family: fontGeneral;
 	src: url(../data/fonts/fontGeneral.otf);
 }
+.photogallery {
+	filter: gray;
+	-webkit-filter: grayscale(1); 
+	-webkit-box-shadow: 0px 2px 6px 2px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 2px 6px 2px rgba(0,0,0,0.75);
+	box-shadow: 0px 2px 6px 2px rgba(0,0,0,0.75);
+	margin-bottom:30px;
+	width: 300px;
+	height: 200px;
+	cursor:pointer;
+	display:block; 
+	margin-left: auto;
+	margin-right: auto;
+}
+.photogallery:hover {
+	filter: none; 
+	-webkit-filter: grayscale(0); 
+}
 .skillbar {
 	position:relative;
 	display:block;
@@ -137,8 +155,8 @@ footer{
 	display: table;
 }
 footer > *{
-  display: table-cell;
-  vertical-align: middle; 
+	display: table-cell;
+	vertical-align: middle; 
 }
 .hobbies{
 	margin-left: 10px;
@@ -152,7 +170,7 @@ footer > *{
 	padding-left: 20px;
 	font-size: 30px;
 }
-#academy, #jobs, #knowledge, #contact{
+#academy, #jobs, #knowledge, #contact, #works{
 	padding-top: 50px;
 	padding-bottom: 30px;
 	font-family:fontGeneral;
@@ -219,7 +237,7 @@ footer > *{
 	margin-left: auto;
 	margin-right: auto;
 }
-#section6{
+#section7{
 	margin-bottom: 100px;
 }
 .margin_project{
@@ -252,7 +270,7 @@ footer > *{
 .title{
 	font-weight: bold;
 }
-@media (max-width: 1012px) {
+@media (max-width: 1077px) {
 	.navbar-header {
 		float: none;
 	}
