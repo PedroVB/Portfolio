@@ -25,7 +25,7 @@ $(document).ready(function(){
     },6000);
   });
 
-  $(".linkGallery").dblclick(function(){
+  $(".linkGallery").click(function(){
     var link = $('img', $(this)).attr('alt');
     window.open(link, '_blank');
   });
